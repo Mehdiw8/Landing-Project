@@ -1,0 +1,29 @@
+.sreachFieldWrapper{
+        background-color: #30c0e4;
+}
+.SearchContent{
+        width:100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5rem;
+
+}
+.SearchContent h1{
+        color: #fff;
+        font-size:3rem
+        
+}
+.SearchContent input{
+        outline:none;
+        border: none;
+        width: 300px;
+        padding: 10px;
+        border-radius: 5px;
+        font-size:1.2rem;
+}
+.SearchContent input::placeholder{
+        font-size:1rem;
+        font-weight: bold;
+        color: #c4c4c4;
+}

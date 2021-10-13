@@ -1,0 +1,28 @@
+.headContainer{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f4f4f4;
+        padding: 1.5rem;
+}
+.listWrapper ul{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     
+
+}
+.listWrapper ul li{
+        margin-right: 20px;
+        color: #666;
+        cursor: pointer;
+        font-size:1.5rem;
+}
+.listWrapper ul li:hover{
+        color: #a4a4a4;
+}
+
+.logo img{
+        border-radius: 50%;
+        width: 60px;
+}
