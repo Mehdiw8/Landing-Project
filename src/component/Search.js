@@ -11,7 +11,6 @@ class Search extends Component {
 
         valueHandler = (e)=>{
                 this.setState({value:e.target.value})
-                console.log(this.state.value)
         }
 
 
@@ -22,6 +21,7 @@ class Search extends Component {
                                              <h1>Serach what you Want</h1>
                                              <input type="text" placeholder="Search" value={this.state.value} onChange={this.valueHandler} />
                                      </div>                           
+                                             <span>{this.state.value}</span>
                         </div>
                 );
         }

@@ -16,7 +16,7 @@
 .cardWrapper>div{
         background-color: #f4f4f4;
         box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
-        line-height:3rem;
+        line-height:2rem;
         border-radius:1rem;
 
 }
@@ -37,4 +37,30 @@
        height: fit-content;
        border-radius:7px;
        
+}
+.numBy{
+        border-top: 1px solid #111;
+        padding: 10px 0 0 0;
+        margin-top:14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.numBy img{
+        width: 30px;
+        margin: 0 1rem;
+        cursor: pointer;
+}
+.numBy span{
+        background-color: rgb(79, 79, 230);
+        height: fit-content;
+        padding: 0 0.7rem;
+        border-radius:15px;
+        color: #fff;
+        width: 40px;
+        text-align: center;
+}
+.deactive {
+        opacity: 0.4;
+        cursor: text;
 }
